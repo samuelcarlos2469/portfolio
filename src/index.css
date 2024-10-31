@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+  
+  .content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 200%;
+  }
+  
+  .section {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .translate-projects {
+    transform: translateX(0%);
+  }
+  
+  .translate-info {
+    transform: translateX(-50%);
+  }
+  
